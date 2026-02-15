@@ -1,0 +1,18 @@
+[project]
+name = "winch-optimization"
+version = "0.1.0"
+description = "Winch optimization notebook migrated to marimo"
+readme = "README.md"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "casadi",
+    "marimo",
+    "matplotlib",
+    "numpy",
+    "pyzmq>=27.1.0",
+    "scipy",
+    "sympy",
+]
+
+[tool.uv]
+package = false
